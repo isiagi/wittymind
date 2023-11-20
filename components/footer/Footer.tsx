@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 function Footer() {
@@ -11,10 +12,18 @@ function Footer() {
           <h1 className="font-medium pb-3">Important Links</h1>
           <div>
             <ul className="leading-7">
-              <li>Home</li>
-              <li>Abouts Us</li>
-              <li>Services</li>
-              <li>Contact</li>
+              <Link href={"/"}>
+                <li>Home</li>
+              </Link>
+              <Link href={"/About"}>
+                <li>Abouts Us</li>
+              </Link>
+              <Link href={"/Services"}>
+                <li>Services</li>
+              </Link>
+              <Link href={"/Contact"}>
+                <li>Contact</li>
+              </Link>
             </ul>
           </div>
         </div>

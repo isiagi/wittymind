@@ -1,25 +1,78 @@
+"use client";
+
 import Link from "next/link";
-import React from "react";
+import React, { useEffect, useState } from "react";
+import { ImCancelCircle } from "react-icons/im";
+import { CgDetailsMore } from "react-icons/cg";
 
 function NavBar() {
-  return (
-    <div className="flex min-h-[10vh] justify-between items-center fixed w-full px-5 border-b-[0.1px] z-10">
-      <h1 className="font-bold text-white">WittyMind Tech</h1>
+  const [open, setOpen] = useState(false);
+  const [offset, setOffset] = useState(0);
 
-      <div>
-        <ul className="flex gap-5 font-medium text-white">
-          <Link href={"/"}>
-            <li>Home</li>
-          </Link>
-          <Link href={"/About"}>
-            <li>About</li>
-          </Link>
-          <Link href={"/Services"}>
-            <li>Service</li>
-          </Link>
-          <li>Contact</li>
-        </ul>
+  useEffect(() => {
+    window.onscroll = () => {
+      setOffset(window.scrollY);
+    };
+  }, []);
+
+  return (
+    <div
+      className={`${
+        offset > 40
+          ? "fixed z-10 w-full px-4 transition ease-in-out  h-[12vh] bg-[#0B1B2B] flex justify-between items-center text-white"
+          : "relative z-10 w-full px-5 transition ease-in-out  h-[12vh] bg-[#4d90d2] flex justify-between items-center text-white"
+      }`}
+    >
+      <div className="flex justify-between items-center md:w-auto w-full">
+        <h1 className="font-bold text-white">WittyMind Tech</h1>
+        <div className="md:hidden">
+          {open ? (
+            <div onClick={() => setOpen(!open)}>
+              <ImCancelCircle className="text-3xl text-white" />
+            </div>
+          ) : (
+            <div onClick={() => setOpen(!open)}>
+              <CgDetailsMore className="text-3xl text-white" />
+            </div>
+          )}
+        </div>
       </div>
+
+      <ul className="md:flex hidden gap-5 font-medium text-white">
+        <Link href={"/"}>
+          <li>Home</li>
+        </Link>
+        <Link href={"/About"}>
+          <li>About</li>
+        </Link>
+        <Link href={"/Services"}>
+          <li>Service</li>
+        </Link>
+        <Link href={"/Contact"}>
+          <li>Contact</li>
+        </Link>
+      </ul>
+
+      {/* mobile nav */}
+      <ul
+        className={`
+        md:hidden bg-[#0B1B2B] opacity-95 z-10 flex flex-col gap-5 absolute w-full top-[calc(100%+0vh)] overflow-y-auto py-12 font-medium pl-4
+        duration-700 text-white ${open ? "left-0" : "left-[-100%]"}
+        `}
+      >
+        <Link href="/" onClick={() => setOpen(false)}>
+          <li>Home</li>
+        </Link>
+        <Link href="/About" onClick={() => setOpen(false)}>
+          <li>About Us</li>
+        </Link>
+        <Link href="/Services" onClick={() => setOpen(false)}>
+          <li>Services</li>
+        </Link>
+        <Link href={"/Contact"} onClick={() => setOpen(false)}>
+          <li>Contact</li>
+        </Link>
+      </ul>
     </div>
   );
 }
