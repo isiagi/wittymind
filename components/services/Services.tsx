@@ -1,20 +1,51 @@
 import Image from "next/image";
 import React from "react";
 
+const serviceData = [
+  {
+    id: 1,
+    title: "Web Development",
+    description:
+      "Web development is the process of creating a website that is visually appealing and user-friendly.",
+    img: "/assets/web.jpg",
+  },
+  {
+    id: 2,
+    title: "Mobile Development",
+    description:
+      "Mobile development is the process of creating a mobile application that is visually appealing and user-friendly.",
+    img: "/assets/mobile.jpg",
+  },
+  {
+    id: 3,
+    title: "Custom Software",
+    description:
+      "Custom software is the process of creating a software that is visually appealing and user-friendly.",
+    img: "/assets/home.jpg",
+  },
+  {
+    id: 4,
+    title: "Cloud Native Apps",
+    description:
+      "Cloud native apps is the process of creating a cloud native application that is visually appealing and user-friendly.",
+    img: "/assets/cloud.jpg",
+  },
+];
+
 function Services() {
   return (
     <div>
       <div className="px-5">
-        <div className="text-center py-4">
-          <h2>Services</h2>
-          <p>View our services</p>
+        <div className="text-center py-10">
+          <h2 className="font-medium text-2xl">Services</h2>
+          <p className="text-md">View our services</p>
         </div>
-        <div className="grid grid-cols-fluid gap-3">
-          {[1, 2, 3, 4, 5].map((i) => (
-            <div key={i} className="md:p-3 p-2 rounded bg-slate-500">
+        <div className="grid grid-cols-fluid gap-10">
+          {serviceData.map(({ id, title, description, img }) => (
+            <div key={id} className="rounded border-[1px]">
               <div className="relative">
                 <Image
-                  src={"/assets/home.jpg"}
+                  src={img}
                   alt="service"
                   width={0}
                   height={0}
@@ -23,12 +54,8 @@ function Services() {
                 />
               </div>
               <div>
-                <h2 className="py-2 text-xl">Web Development</h2>
-                <p className="leading-6">
-                  Lorem ipsum dolor sit amet consectetur adipiscing elit primis
-                  rutrum, nullam tempor malesuada laoreet tempus blandit pretium
-                  etc.
-                </p>
+                <h2 className="py-2 text-xl">{title}</h2>
+                <p className="leading-6">{description}</p>
               </div>
             </div>
           ))}

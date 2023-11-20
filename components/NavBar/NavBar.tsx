@@ -17,7 +17,9 @@ function NavBar() {
           <Link href={"/Services"}>
             <li>Service</li>
           </Link>
-          <li>Contact</li>
+          <Link href={"/Contact"}>
+            <li>Contact</li>
+          </Link>
         </ul>
       </div>
     </div>

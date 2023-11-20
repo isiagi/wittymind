@@ -14,8 +14,9 @@ function Hero() {
             <h1 className=" text-white">
               <HeroText />
             </h1>
-            <div className="md:text-2xl text-md font-medium text-gray-200 max-w-xl py-4">
-              We are a team of passionate, creative people who are passionate
+            <div className="md:text-2xl text-lg font-medium text-gray-200 max-w-md py-4">
+              We are a team of passionate, creative people{" "}
+              <span className="md:inline-block hidden">who are</span> passionate
               about{" "}
               <TextLoop>
                 <div>Technology.</div>
