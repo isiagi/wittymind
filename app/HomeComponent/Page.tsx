@@ -13,8 +13,8 @@ function Page() {
       <Why />
       <Services />
       <Projects />
-      <Cta />
       <Clients />
+      <Cta />
     </div>
   );
 }
