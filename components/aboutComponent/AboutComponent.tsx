@@ -4,7 +4,7 @@ import React from "react";
 function AboutComponent() {
   return (
     <div>
-      <div className="grid grid-cols-fluid py-6">
+      <div className="grid grid-cols-fluid gap-4 py-6">
         <div>
           <Image
             src={"/assets/home.jpg"}

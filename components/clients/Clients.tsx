@@ -3,7 +3,7 @@ import Marquee from "react-fast-marquee";
 
 function Clients() {
   return (
-    <Marquee className="bg-gray-500 flex justify-between">
+    <Marquee className="bg-[url('/assets/back.jpg')] bg-center bg-cover flex justify-between">
       <div>
         <Image src="/assets/logo.jpg" alt="" width={100} height={100} />
       </div>
