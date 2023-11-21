@@ -8,12 +8,13 @@ function page() {
     <div>
       <HeaderBanner title="Services" />
       <div className="grid grid-cols-fluid gap-10 px-5 py-8">
-        {serviceData.map(({ id, title, description, img }) => (
+        {serviceData.map(({ id, title, description, img, to }) => (
           <ServiceCard
             key={id}
             title={title}
             description={description}
             img={img}
+            to={to}
           />
         ))}
       </div>

@@ -18,7 +18,7 @@ function Page() {
           <Link href={"/Services/Web"}>
             <div
               className={`${
-                id === "Web" ? "bg-[#AFCBD6]" : "bg-gray-300"
+                id === "Web" ? "bg-[#d6afbc]" : "bg-gray-300"
               } bg-gray-300 px-5 flex items-center justify-between py-3`}
             >
               <h1>Web Development</h1>
@@ -28,7 +28,7 @@ function Page() {
           <Link href={"/Services/Mobile"}>
             <div
               className={`${
-                id === "Mobile" ? "bg-[#AFCBD6]" : "bg-gray-300"
+                id === "Mobile" ? "bg-[#d6afbc]" : "bg-gray-300"
               } bg-gray-300 px-5 flex items-center justify-between py-3`}
             >
               <h1>Mobile Development</h1>
@@ -38,7 +38,7 @@ function Page() {
           <Link href={"/Services/Cloud"}>
             <div
               className={`${
-                id === "Cloud" ? "bg-[#AFCBD6]" : "bg-gray-300"
+                id === "Cloud" ? "bg-[#d6afbc]" : "bg-gray-300"
               } bg-gray-300 px-5 flex items-center justify-between py-3`}
             >
               <h1>Cloud Development</h1>
@@ -48,7 +48,7 @@ function Page() {
           <Link href={"/Services/Custom"}>
             <div
               className={`${
-                id === "Custom" ? "bg-[#AFCBD6]" : "bg-gray-300"
+                id === "Custom" ? "bg-[#d6afbc]" : "bg-gray-300"
               } bg-gray-300 px-5 flex items-center justify-between py-3`}
             >
               <h1>Custom Development</h1>

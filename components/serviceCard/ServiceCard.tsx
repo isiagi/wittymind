@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import { TbAdjustmentsHorizontal } from "react-icons/tb";
 
@@ -6,9 +7,10 @@ interface ServiceCard {
   title: string;
   description: string;
   img: string;
+  to: string;
 }
 
-function ServiceCard({ title, description, img }: ServiceCard) {
+function ServiceCard({ title, description, img, to }: ServiceCard) {
   return (
     <div className=" flex flex-col justify-between rounded border-[1px]">
       <div className="relative">
@@ -29,7 +31,9 @@ function ServiceCard({ title, description, img }: ServiceCard) {
         <p className="leading-6">{description}</p>
       </div>
       <div className="px-3">
-        <p className="py-2">Learn More</p>
+        <Link href={to}>
+          <p className="py-2">Learn More</p>
+        </Link>
       </div>
     </div>
   );
