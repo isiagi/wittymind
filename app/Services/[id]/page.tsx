@@ -18,8 +18,10 @@ function Page() {
           <Link href={"/Services/Web"}>
             <div
               className={`${
-                id === "Web" ? "bg-[#d6afbc]" : "bg-gray-300"
-              } bg-gray-300 px-5 flex items-center justify-between py-3`}
+                id === "Web"
+                  ? "bg-[#4DD1BE] text-white px-5 flex items-center justify-between py-3"
+                  : "bg-[#4D90D2] text-white px-5 flex items-center justify-between py-3"
+              }`}
             >
               <h1>Web Development</h1>
               <FaAngleRight />
@@ -28,8 +30,10 @@ function Page() {
           <Link href={"/Services/Mobile"}>
             <div
               className={`${
-                id === "Mobile" ? "bg-[#d6afbc]" : "bg-gray-300"
-              } bg-gray-300 px-5 flex items-center justify-between py-3`}
+                id === "Mobile"
+                  ? "bg-[#4DD1BE] text-white px-5 flex items-center justify-between py-3"
+                  : "bg-[#4D90D2] text-white px-5 flex items-center justify-between py-3"
+              }`}
             >
               <h1>Mobile Development</h1>
               <FaAngleRight />
@@ -38,8 +42,10 @@ function Page() {
           <Link href={"/Services/Cloud"}>
             <div
               className={`${
-                id === "Cloud" ? "bg-[#d6afbc]" : "bg-gray-300"
-              } bg-gray-300 px-5 flex items-center justify-between py-3`}
+                id === "Cloud"
+                  ? "bg-[#4DD1BE] text-white px-5 flex items-center justify-between py-3"
+                  : "bg-[#4D90D2] text-white px-5 flex items-center justify-between py-3"
+              }`}
             >
               <h1>Cloud Development</h1>
               <FaAngleRight />
@@ -48,8 +54,10 @@ function Page() {
           <Link href={"/Services/Custom"}>
             <div
               className={`${
-                id === "Custom" ? "bg-[#d6afbc]" : "bg-gray-300"
-              } bg-gray-300 px-5 flex items-center justify-between py-3`}
+                id === "Custom"
+                  ? "bg-[#4DD1BE] text-white px-5 flex items-center justify-between py-3"
+                  : "bg-[#4D90D2] text-white px-5 flex items-center justify-between py-3"
+              } `}
             >
               <h1>Custom Development</h1>
               <FaAngleRight />

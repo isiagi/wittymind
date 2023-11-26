@@ -74,8 +74,8 @@ function ServiceDetailComponent({ title, img }: DetailsComponent) {
           }}
         />
       </div>
-      <h2 className="text-xl font-medium">{title}</h2>
-      <p>
+      <h2 className="text-3xl font-medium text-[#4D90D2] py-5">{title}</h2>
+      <p className="text-slate-600 leading-7">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, qui.
         Minima consectetur rem eligendi distinctio possimus, fugit facilis quo
         quae minus animi, ipsum quas asperiores sunt aspernatur, eveniet
