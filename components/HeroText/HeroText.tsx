@@ -7,7 +7,7 @@ function HeroText() {
     <TypeAnimation
       sequence={[
         // Same substring at the start will only be typed out once, initially
-        "WittyMind Tech",
+        "WittyLoop Tech",
         1000, // wait 1s before replacing "Mice" with "Hamsters"
         "Your Tech Pactner",
         1000,

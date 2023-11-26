@@ -22,17 +22,17 @@ function ServiceCard({ title, description, img, to }: ServiceCard) {
           sizes="100vw"
           style={{ width: "100%", height: "250px", objectFit: "cover" }}
         />
-        <div className="absolute bottom-0 p-4 bg-gray-300">
+        <div className="absolute bottom-0 p-4 bg-gray-100">
           <TbAdjustmentsHorizontal className="text-xl" />
         </div>
       </div>
       <div className="px-3">
-        <h2 className="py-2 text-xl">{title}</h2>
-        <p className="leading-6">{description}</p>
+        <h2 className="py-2 text-xl text-[#4D90D2] font-medium">{title}</h2>
+        <p className="leading-7 text-slate-600">{description}</p>
       </div>
       <div className="px-3">
         <Link href={to}>
-          <p className="py-2">Learn More</p>
+          <p className="py-2 text-[#4DD1BE]">Learn More</p>
         </Link>
       </div>
     </div>

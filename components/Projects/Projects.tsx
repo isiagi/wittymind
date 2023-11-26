@@ -3,7 +3,7 @@ import React from "react";
 
 function Projects() {
   return (
-    <div className="px-5 py-7 bg-slate-400">
+    <div className="px-5 py-7 bg-gray-100">
       <div>
         <div className="text-center py-7">
           <h1 className="text-2xl font-medium">Project</h1>
@@ -15,7 +15,9 @@ function Projects() {
             <div key={i} className="rounded ">
               <div className="relative">
                 <Image
-                  src={"/assets/home.jpg"}
+                  src={
+                    "https://portfolio-website-seven-ruddy.vercel.app/assets/port-8d2ecc2e.png"
+                  }
                   alt="service"
                   width={0}
                   height={0}

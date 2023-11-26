@@ -25,7 +25,7 @@ function Hero() {
                 <div>Data Analysis.</div>
               </TextLoop>
             </div>
-            <button className="bg-blue-600 p-2 text-white rounded flex items-center gap-1">
+            <button className="bg-[#4DD1BE] p-2 text-white rounded flex items-center gap-1">
               View Services <MdMiscellaneousServices />
             </button>
           </div>
