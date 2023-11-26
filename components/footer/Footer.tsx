@@ -5,11 +5,13 @@ function Footer() {
   return (
     <div className="bg-[url('/assets/back.jpg')] bg-center bg-cover py-10">
       <div className="flex flex-wrap justify-between items-center px-5 gap-5">
-        <div className="max-w-[400px]">
+        <div className="max-w-[450px]">
           <h1 className="font-bold text-white text-lg pb-3">WittyLoop Tech</h1>
           <p className="text-white leading-[35px]">
-            Lorem ipsum dolor sit amet consectetur adipiscing elit primis
-            rutrum, nullam tempor malesuada laoreet tempus blandit pretium etc.
+            Welcome to WittyLoop Tech, where expertise meets innovation. Our
+            mission is to pioneer the future of technology with tailored
+            solutions. Join us as we redefine the possibilities of the digital
+            world.
           </p>
         </div>
         <div>

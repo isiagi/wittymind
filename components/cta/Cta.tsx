@@ -18,11 +18,14 @@ function Cta() {
       <div className="container px-5 py-24 mx-auto flex flex-wrap items-center">
         <div className="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
           <h1 className="title-font font-medium text-3xl text-gray-900">
-            Slow-carb next level shoindcgoitch ethical authentic, poko scenester
+            Get in Touch
           </h1>
           <p className="leading-relaxed mt-4">
-            Poke slow-carb mixtape knausgaard, typewriter street art gentrify
-            hammock starladder roathse. Craies vegan tousled etsy austin.
+            We&lsquo;d love to hear from you! Whether you have a project in
+            mind, need technical advice, or simply want to say hello, our team
+            is here and ready to assist. Drop us a message below and let&lsquo;s
+            start the conversation that could spark innovation and
+            collaboration.
           </p>
         </div>
         <form
