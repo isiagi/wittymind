@@ -8,7 +8,7 @@ function Service() {
     <div className="py-[5rem] bg-gray-100 flex items-center justify-center">
       <div className="flex px-5 justify-center flex-wrap w-full">
         <div className="md:max-w-[30%]">
-          <h1 className="md:text-4xl text-xl text-[#4DD1BE] font-medium max-w-[300px]">
+          <h1 className="md:text-4xl text-xl text-[#4D90D2] font-medium max-w-[300px]">
             WHY WORK WITH US !
           </h1>
           <p className="text-slate-600 leading-7 pt-3">
@@ -19,8 +19,8 @@ function Service() {
         </div>
         <div className="md:max-w-[70%]">
           <div className="flex gap-2 text-center flex-wrap justify-end">
-            <div className="md:max-w-[30%] flex flex-col justify-center items-center border-[1px] p-2 border-slate-400">
-              <FaRegHandshake className="text-3xl text-[#5F4DD1]" />
+            <div className="md:max-w-[30%] flex flex-col justify-center items-center border-[1px] p-2 border-[#5F4DD1]">
+              <FaRegHandshake className="text-3xl text-[#4DD1BE]" />
               <h2 className="py-2 text-xl text-slate-900">
                 Innovation at our Core
               </h2>
@@ -30,8 +30,9 @@ function Service() {
                 solutions to tomorrow’s challenges.
               </p>
             </div>
-            <div className="md:max-w-[30%] flex flex-col justify-center items-center border-[1px] p-2 border-slate-400">
-              <AiOutlineTrophy className="text-3xl text-[#5F4DD1]" />
+
+            <div className="md:max-w-[30%] flex flex-col justify-center items-center border-[1px] p-2 border-[#5F4DD1]">
+              <AiOutlineTrophy className="text-3xl text-[#4DD1BE]" />
               <h2 className="py-2 text-xl text-slate-900">
                 Collaborative Partnership
               </h2>
@@ -41,8 +42,8 @@ function Service() {
                 ideas flourish and solutions exceed expectations.
               </p>
             </div>
-            <div className="md:max-w-[30%] flex flex-col justify-center items-center border-[1px] p-2 border-slate-400">
-              <TbAdjustmentsHorizontal className="text-3xl text-[#5F4DD1]" />
+            <div className="md:max-w-[30%] flex flex-col justify-center items-center border-[1px] p-2 border-[#5F4DD1]">
+              <TbAdjustmentsHorizontal className="text-3xl text-[#4DD1BE]" />
               <h2 className="py-2 text-xl text-slate-900">
                 Client-Centric Approach
               </h2>
