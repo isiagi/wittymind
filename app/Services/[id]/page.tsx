@@ -1,7 +1,9 @@
 "use client";
 
+import Cta from "@/components/cta/Cta";
 import HeaderBanner from "@/components/headerBanner/HeaderBanner";
 import ServiceDetail from "@/components/servicesDetails/ServiceDetail";
+import Service from "@/components/why/Why";
 import Link from "next/link";
 import { useParams } from "next/navigation";
 import { FaAngleRight } from "react-icons/fa6";
@@ -12,7 +14,7 @@ function Page() {
 
   return (
     <div>
-      <HeaderBanner title="Service Details" />
+      <HeaderBanner title={`${id} Development Details`} />
       <div className="flex flex-wrap px-5 gap-10 py-10">
         <div className=" md:w-[30%] w-[100%] flex flex-col gap-3">
           <Link href={"/Services/Web"}>
@@ -66,6 +68,8 @@ function Page() {
         </div>
         <ServiceDetail id={id} />
       </div>
+      <Service />
+      <Cta />
     </div>
   );
 }
