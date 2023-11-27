@@ -5,7 +5,7 @@ import { AiOutlineTrophy } from "react-icons/ai";
 
 function Service() {
   return (
-    <div className="py-[5rem] bg-gray-100 flex items-center justify-center">
+    <div className="py-[7rem] bg-gray-100 flex items-center justify-center">
       <div className="flex px-5 justify-center flex-wrap w-full">
         <div className="md:max-w-[30%]">
           <h1 className="md:text-4xl text-xl text-[#4D90D2] font-medium max-w-[300px]">
