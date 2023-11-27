@@ -13,9 +13,9 @@ function page() {
       <div className="px-5 py-8">
         <AboutComponent />
       </div>
+      <Services />
       <Service />
       <Clients />
-      <Services />
       <Cta />
     </div>
   );

@@ -23,8 +23,8 @@ function ContactComponent() {
             Contact Us
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-            gentrify.
+            Empowering Tomorrow&rsquo;s Tech Today at WittyLoop. Join us in
+            redefining innovation and possibilities in the tech realm.
           </p>
         </div>
         <form

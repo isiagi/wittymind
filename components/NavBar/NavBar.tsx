@@ -24,7 +24,7 @@ function NavBar() {
       }`}
     >
       <div className="flex justify-between items-center md:w-auto w-full">
-        <h1 className="font-bold text-white">WittyLoop Tech</h1>
+        <h1 className="font-bold text-white text-2xl">WittyLoop Tech</h1>
         <div className="md:hidden">
           {open ? (
             <div onClick={() => setOpen(!open)}>
