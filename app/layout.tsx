@@ -9,7 +9,7 @@ import Loading from "./loading";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "WittyMind Tech",
+  title: "WittyLoop Tech",
   description:
     "We are a team of passionate, creative people who are passionate about technology.",
 };
