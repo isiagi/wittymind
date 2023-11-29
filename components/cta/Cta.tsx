@@ -10,7 +10,13 @@ function Cta() {
   const handleSubmit = async (event: any) => {
     event.preventDefault();
 
-    await Helper(formRef);
+    const confirmSubmit = confirm("Are you sure you want to submit");
+
+    if (confirmSubmit) {
+      await Helper({ formRef, tesing: false });
+    } else {
+      await Helper({ formRef, tesing: true });
+    }
   };
   return (
     <section className="text-gray-600 body-font">
