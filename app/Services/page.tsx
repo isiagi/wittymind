@@ -1,7 +1,13 @@
+import type { Metadata } from "next";
 import HeaderBanner from "@/components/headerBanner/HeaderBanner";
 import ServiceCard from "@/components/serviceCard/ServiceCard";
 import { serviceData } from "@/utils/servicesData";
 import React from "react";
+
+export const metadata: Metadata = {
+  title: "Services WittyLoop Tech",
+  description: "View services offered at WittyLoop Tech",
+};
 
 function page() {
   return (

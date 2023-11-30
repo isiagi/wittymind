@@ -1,6 +1,13 @@
+import type { Metadata } from "next";
 import ContactComponent from "@/components/contactComponent/ContactComponent";
 import HeaderBanner from "@/components/headerBanner/HeaderBanner";
 import React from "react";
+
+export const metadata: Metadata = {
+  title: "Contact WittyLoop Tech",
+  description:
+    "Reach out to us effortlessly using our contact information and we'll be glad to provide the support you need.",
+};
 
 function page() {
   return (
