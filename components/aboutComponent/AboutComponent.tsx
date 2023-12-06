@@ -22,8 +22,8 @@ function AboutComponent() {
           />
         </div>
         <div>
-          <h2 className="text-3xl text-gray-900">WHO WE ARE</h2>
-          <h1 className="pt-2 text-gray-800">
+          <h2 className="text-3xl text-[#205487]">WHO WE ARE</h2>
+          <h1 className="pt-2 text-[#233547]">
             Highly Tailored IT Design, Management & Support Services.
           </h1>
           <p className="leading-7 text-slate-600 pt-5">

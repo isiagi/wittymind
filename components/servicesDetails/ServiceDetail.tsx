@@ -1,5 +1,5 @@
 import Image from "next/image";
-import React, { ReactNode } from "react";
+import React from "react";
 
 interface PageDetails {
   id: any;
@@ -84,7 +84,7 @@ function ServiceDetailComponent({ title, img, content }: DetailsComponent) {
           }}
         />
       </div>
-      <h2 className="text-3xl font-medium text-[#4D90D2] py-5">{title}</h2>
+      <h2 className="text-3xl font-medium text-[#205487] py-5">{title}</h2>
       <p className="text-slate-600 leading-7">{content}</p>
     </div>
   );

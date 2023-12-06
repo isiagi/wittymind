@@ -18,8 +18,8 @@ function ServiceNav() {
             <div
               className={`${
                 id === "Web"
-                  ? "bg-[#4DD1BE] text-white px-5 flex items-center justify-between py-3"
-                  : "bg-[#4D90D2] text-white px-5 flex items-center justify-between py-3"
+                  ? "bg-[#876120] text-white px-5 flex items-center justify-between py-3"
+                  : "bg-[#3278be] text-white px-5 flex items-center justify-between py-3"
               }`}
             >
               <h1>Web Development</h1>
@@ -30,8 +30,8 @@ function ServiceNav() {
             <div
               className={`${
                 id === "Mobile"
-                  ? "bg-[#4DD1BE] text-white px-5 flex items-center justify-between py-3"
-                  : "bg-[#4D90D2] text-white px-5 flex items-center justify-between py-3"
+                  ? "bg-[#876120] text-white px-5 flex items-center justify-between py-3"
+                  : "bg-[#3278be] text-white px-5 flex items-center justify-between py-3"
               }`}
             >
               <h1>Mobile Development</h1>
@@ -42,8 +42,8 @@ function ServiceNav() {
             <div
               className={`${
                 id === "Cloud"
-                  ? "bg-[#4DD1BE] text-white px-5 flex items-center justify-between py-3"
-                  : "bg-[#4D90D2] text-white px-5 flex items-center justify-between py-3"
+                  ? "bg-[#876120] text-white px-5 flex items-center justify-between py-3"
+                  : "bg-[#3278be] text-white px-5 flex items-center justify-between py-3"
               }`}
             >
               <h1>Cloud Development</h1>
@@ -54,8 +54,8 @@ function ServiceNav() {
             <div
               className={`${
                 id === "Custom"
-                  ? "bg-[#4DD1BE] text-white px-5 flex items-center justify-between py-3"
-                  : "bg-[#4D90D2] text-white px-5 flex items-center justify-between py-3"
+                  ? "bg-[#876120] text-white px-5 flex items-center justify-between py-3"
+                  : "bg-[#3278be] text-white px-5 flex items-center justify-between py-3"
               } `}
             >
               <h1>Custom Development</h1>

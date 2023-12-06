@@ -1,5 +1,7 @@
 "use client";
 
+// bg-[#12121299]
+
 import HeroText from "../HeroText/HeroText";
 import { MdMiscellaneousServices } from "react-icons/md";
 import { TextLoop } from "easy-react-text-loop";
@@ -7,7 +9,7 @@ import Banner from "../banner/Banner";
 
 function Hero() {
   return (
-    <div className="min-h-[100vh] bg-[url('/assets/home.jpg')] bg-no-repeat bg-cover bg-blend-overlay bg-[#00000099] bg-center">
+    <div className="min-h-[100vh] bg-[url('/assets/home.jpg')] bg-no-repeat bg-cover bg-blend-overlay bg-[#27272799] bg-center">
       <div>
         <div className="px-5 flex items-center min-h-[100vh]">
           <div>
@@ -18,14 +20,16 @@ function Hero() {
               We are a team of passionate, creative people{" "}
               <span className="md:inline-block hidden">who are</span> passionate
               about{" "}
-              <TextLoop>
-                <div>Technology.</div>
-                <div>Mobile Development.</div>
-                <div>Web Development.</div>
-                <div>Data Analysis.</div>
-              </TextLoop>
+              <span className="text-[#876120] font-semibold">
+                <TextLoop>
+                  <div>Technology.</div>
+                  <div>Mobile Development.</div>
+                  <div>Web Development.</div>
+                  <div>Data Analysis.</div>
+                </TextLoop>
+              </span>
             </div>
-            <button className="bg-[#4DD1BE] p-2 text-white rounded flex items-center gap-1">
+            <button className="bg-[#205386] p-2 text-white rounded flex items-center gap-1">
               View Services <MdMiscellaneousServices />
             </button>
           </div>
