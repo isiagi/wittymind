@@ -14,7 +14,7 @@ function HeroText() {
       ]}
       wrapper="span"
       speed={50}
-      className="md:text-4xl text-3xl font-bold inline-block"
+      className="md:text-4xl text-3xl font-bold inline-block text-[#205386]"
       repeat={Infinity}
     />
   );

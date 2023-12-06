@@ -27,8 +27,8 @@ function Projects() {
     <div className="px-5 py-7 bg-gray-100">
       <div>
         <div className="text-center py-7">
-          <h1 className="font-medium text-3xl text-gray-900">Projects</h1>
-          <p className="text-md text-gray-500 py-4">
+          <h1 className="font-medium text-3xl text-[#876120]">Projects</h1>
+          <p className="text-md text-[#233547] py-4">
             Some of projects We Have worked On Sofar
           </p>
         </div>
@@ -51,7 +51,7 @@ function Projects() {
                 />
               </div>
               <div>
-                <h2 className="py-2 text-xl">{title}</h2>
+                <h2 className="py-2 text-xl text-[#205487]">{title}</h2>
               </div>
             </div>
           ))}
