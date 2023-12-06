@@ -4,6 +4,7 @@ import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import { ImCancelCircle } from "react-icons/im";
 import { CgDetailsMore } from "react-icons/cg";
+import Image from "next/image";
 
 function NavBar() {
   const [open, setOpen] = useState(false);
@@ -25,7 +26,12 @@ function NavBar() {
     >
       <div className="flex justify-between items-center md:w-auto w-full">
         <Link href={"/"}>
-          <h1 className="font-bold text-white text-2xl">WittyLoop Tech</h1>
+          <Image
+            src={"/assets/logo.png"}
+            alt="logos"
+            width={150}
+            height={150}
+          />
         </Link>
         <div className="md:hidden">
           {open ? (
