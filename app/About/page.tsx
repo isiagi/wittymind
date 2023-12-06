@@ -11,6 +11,7 @@ export const metadata: Metadata = {
   title: "About WittyLoop Tech",
   description:
     "Our tech company offers cutting-edge mobile apps, custom software, and website solutions. Let us help you achieve success with our expertise in web app and dashboard design.",
+  robots: "all",
 };
 
 function page() {

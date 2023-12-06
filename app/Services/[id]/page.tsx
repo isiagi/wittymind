@@ -5,6 +5,8 @@ import ServiceNav from "@/components/serviceNav/ServiceNav";
 
 export const metadata: Metadata = {
   title: "Service detail WittyLoop Tech",
+  description: "Service Detail offered at WittyLoop Tech",
+  robots: "all",
 };
 
 function Page() {

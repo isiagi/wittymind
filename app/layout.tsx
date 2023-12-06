@@ -12,6 +12,7 @@ export const metadata: Metadata = {
   title: "WittyLoop Tech",
   description:
     "We are a team of passionate, creative people who are passionate about technology.",
+  robots: "all",
 };
 
 export default function RootLayout({

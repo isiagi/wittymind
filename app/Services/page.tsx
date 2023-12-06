@@ -7,6 +7,7 @@ import React from "react";
 export const metadata: Metadata = {
   title: "Services WittyLoop Tech",
   description: "View services offered at WittyLoop Tech",
+  robots: "all",
 };
 
 function page() {
