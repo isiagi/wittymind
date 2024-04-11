@@ -8,10 +8,12 @@ import ServiceDetail from "../servicesDetails/ServiceDetail";
 
 function ServiceNav() {
   const { id } = useParam();
-  console.log(id);
+
+  const bgUrl = getImageUrl(id);
+
   return (
     <div>
-      <HeaderBanner title={`${id} Development Details`} />
+      <HeaderBanner bgImg={bgUrl} title={`${id} Development Details`} />
       <div className="flex flex-wrap px-5 gap-10 py-10">
         <div className=" md:w-[30%] w-[100%] flex flex-col gap-3">
           <Link href={"/Services/Web"}>
@@ -70,3 +72,20 @@ function ServiceNav() {
 }
 
 export default ServiceNav;
+
+// Helper function to determine image url
+
+function getImageUrl(id: any): string {
+  let url = "";
+  if (id === "Web") {
+    url = "web.jpg";
+  } else if (id === "Mobile") {
+    url = "mobile.jpg";
+  } else if (id === "Cloud") {
+    url = "cloud.jpg";
+  } else {
+    url = "home.jpg";
+  }
+
+  return url;
+}

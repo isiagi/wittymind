@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 function page() {
   return (
     <div>
-      <HeaderBanner title="About Us" />
+      <HeaderBanner title="About Us" bgImg="cloud.jpg" />
       <div className="px-5 py-8">
         <AboutComponent />
       </div>

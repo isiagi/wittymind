@@ -12,17 +12,18 @@ interface ServiceCard {
 
 function ServiceCard({ title, description, img, to }: ServiceCard) {
   return (
-    <div className=" flex flex-col justify-between rounded border-[1px]">
-      <div className="relative">
+    <div className=" flex flex-col justify-between rounded border-[1px] group hover:scale-[1.01]">
+      <div className="relative overflow-hidden">
         <Image
           src={img}
           alt="service"
           width={0}
           height={0}
           sizes="100vw"
-          style={{ width: "100%", height: "250px", objectFit: "cover" }}
+          style={{ objectFit: "cover" }}
+          className="w-full h-[250px] group-hover:scale-110 transition ease-in-out duration-500"
         />
-        <div className="absolute bottom-0 p-4 bg-[#233547]">
+        <div className="absolute bottom-0 p-4 group-hover:bg-[#876120] bg-[#233547]">
           <TbAdjustmentsHorizontal className="text-xl text-white" />
         </div>
       </div>
@@ -32,7 +33,9 @@ function ServiceCard({ title, description, img, to }: ServiceCard) {
       </div>
       <div className="px-3">
         <Link href={to}>
-          <p className="py-2 text-[#233547] font-semibold">Learn More</p>
+          <p className="py-4 text-[#233547] font-semibold hover:text-[#876120]">
+            Learn More
+          </p>
         </Link>
       </div>
     </div>
