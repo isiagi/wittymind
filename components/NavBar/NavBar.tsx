@@ -21,7 +21,7 @@ function NavBar() {
       className={`${
         offset > 40
           ? "fixed z-10 w-full px-4 transition ease-in-out  h-[12vh] bg-[#233547] flex justify-between items-center text-white"
-          : "fixed z-10 w-full px-5 transition ease-in-out  h-[12vh] flex justify-between items-center text-white"
+          : "fixed z-10 w-full px-5 transition ease-in-out  h-[12vh] flex justify-between items-center text-white border-b-[1px] border-gray-400"
       }`}
     >
       <div className="flex justify-between items-center md:w-auto w-full">

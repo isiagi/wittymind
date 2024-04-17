@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 function page() {
   return (
     <div>
-      <HeaderBanner title="Services" />
+      <HeaderBanner title="Services" bgImg="web.jpg" />
       <div className="grid grid-cols-fluid gap-10 px-5 py-8">
         {serviceData.map(({ id, title, description, img, to }) => (
           <ServiceCard

@@ -14,7 +14,7 @@ function page() {
   return (
     <div>
       <div>
-        <HeaderBanner title="Talk To Us" />
+        <HeaderBanner title="Talk To Us" bgImg="mobile.jpg" />
         <ContactComponent />
       </div>
     </div>

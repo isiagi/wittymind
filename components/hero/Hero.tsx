@@ -29,7 +29,7 @@ function Hero() {
                 </TextLoop>
               </span>
             </div>
-            <button className="bg-[#205386] p-2 text-white rounded flex items-center gap-1">
+            <button className="bg-[#205386] p-3 text-white rounded flex items-center gap-1 hover:bg-[#876120] hover:text-white">
               View Services <MdMiscellaneousServices />
             </button>
           </div>
